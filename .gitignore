@@ -1,0 +1,72 @@
+# ==============================
+# OS FILES
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# IDE / EDITORS
+# ==============================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ==============================
+# LOGS
+# ==============================
+*.log
+npm-debug.log
+yarn-error.log
+
+# ==============================
+# FLUTTER / DART
+# ==============================
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/.last_build_id
+
+# Android
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# ==============================
+# NODE / BACKEND
+# ==============================
+node_modules/
+backend/node_modules/
+
+# ENV FILES (IMPORTANT 🔥)
+.env
+.env.local
+.env.development
+.env.production
+
+# ==============================
+# GENERATED FILES
+# ==============================
+*.g.dart
+*.freezed.dart
+
+# ==============================
+# MISC
+# ==============================
+*.class
+*.pyc
+*.swp
+.svn/
+.history
+.swiftpm/

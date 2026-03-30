@@ -1,0 +1,58 @@
+name: mahadev
+description: "21-Day Discipline & Habit Tracker"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  
+  # Networking
+  http: ^1.6.0
+  
+  # Storage
+  flutter_secure_storage: ^10.0.0
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+  
+  # Notifications
+  flutter_local_notifications: ^21.0.0
+  timezone: ^0.11.0
+  
+  # Utilities
+  path_provider: ^2.1.5
+  intl: ^0.20.2
+  
+  # Permissions
+  permission_handler: ^11.0.0
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Code generation
+  build_runner: ^2.4.13
+  hive_generator: ^2.0.1
+  
+  # Linting
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/
+  # To add assets to your application, add an assets section, like this:
+  # 
+    
+flutter_icons:
+  android: true
+  # ios: true
+  image_path: "assets/images/image.png"
+  
